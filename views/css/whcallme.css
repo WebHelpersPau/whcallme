@@ -1,0 +1,65 @@
+.msg-box{
+    position: fixed;
+    top:20px;
+    width: 300px;
+    left: calc( 50vw - 150px);
+    padding: 20px;
+    box-shadow: 0px 0px 10px #000;
+    background-color: white;
+}
+
+#whcallme_frame{
+    position: fixed;
+    top:100px;
+    right: -400px;
+    width: 550px;
+    height: auto;
+    display: flex;
+    cursor: pointer;
+}
+
+#whcallme_frame.active{
+    animation: deplacement-gauche 1s;
+    right: 0px; 
+}
+
+@keyframes deplacement-gauche {
+    0% { right: -400px; }
+    40% { right: -400px; }
+    100% { right: 0px; }
+}
+
+#whcallme_frame.active #whcallme_cta{
+    animation: disparition 0.5s;
+    opacity: 0;
+}
+
+@keyframes disparition {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+#whcallme_cta{
+    width: 150px;
+    height: 50px;`
+    border:1px solid #aaa;`
+    border-right:0px;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+#whcallme_block{
+    width: 400px;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+#whcallme_block div{
+    margin-left: 0px !important;
+}
+
+.rgpd_msg{
+    font-size: 11px;
+}

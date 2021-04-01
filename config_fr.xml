@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>whpprev</name>
+    <displayName><![CDATA[Paiement par pr&eacute;l&egrave;vement bancaire]]></displayName>
+    <version><![CDATA[1.0.0]]></version>
+    <description><![CDATA[Perm&ecirc;t aux clients de fournir les informations bancaires n&eacute;cessaires pour &eacute;tablir un mandat de pr&eacute;l&egrave;vement]]></description>
+    <author><![CDATA[Web Helpers]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Êtes-vous sûr de vouloir désinstaller ce module ?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
