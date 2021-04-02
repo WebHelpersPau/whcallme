@@ -1,5 +1,5 @@
 <?php
-//on définis les champs correspondant à ceux utilisé dans la fonction "installSql" du fichier "whchatbot.php"
+
 class WhRequestCall extends ObjectModel {
     public $id;
     public $id_whrequestcall;

@@ -71,18 +71,6 @@ class WhCallMe extends Module
 
     //création de la table dans la base de données.
     protected function installSql(){
-        /*$sqlCreate = "CREATE TABLE IF NOT EXISTS " . _DB_PREFIX_ . WhRequestCall::$definition["table"] . " (
-            " . WhRequestCall::$definition["primary"] . " int(11) unsigned NOT NULL AUTO_INCREMENT,
-            question varchar(255) DEFAULT NULL,
-            choice1 varchar(255) DEFAULT NULL,
-            choice2 varchar(255) DEFAULT NULL,
-            choice3 varchar(255) DEFAULT NULL,
-            choice4 varchar(255) DEFAULT NULL,
-            active tinyint(1) DEFAULT NULL,
-            sentmessage varchar(255) DEFAULT NULL,
-            PRIMARY KEY (" . WhRequestCall::$definition["primary"] . ")
-            ) ENGINE=InnoDB DEFAULT CHARSET=utf8;";
-        return Db::getInstance()->execute($sqlCreate);*/
         
         $sqlCreate = "CREATE TABLE IF NOT EXISTS " . _DB_PREFIX_ . WhRequestCall::$definition["table"] . " (
             " . WhRequestCall::$definition["primary"] . " int(11) unsigned NOT NULL AUTO_INCREMENT,
